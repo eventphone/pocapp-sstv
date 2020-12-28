@@ -35,6 +35,6 @@ expr {srand([clock clicks])}
 
 ##
 } fid]} {
-  ::ygi::log "error $fid" 4
+	::ygi::log "error $fid"
 }
 ##
