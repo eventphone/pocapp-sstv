@@ -6,7 +6,7 @@ SPDX-License-Identifier: BSD-3-Clause
 # POCAPP SSTV
 
 The script sends a random image over SIP with usage of SSTV
-
+Inspired by https://twitter.com/SmithChart/status/1343265595484209152
 
 ## Usage
 
