@@ -10,7 +10,7 @@ The script sends a random image over SIP with usage of SSTV
 
 ## Usage
 
-The script is intend to be used within the Eventphone telephone system.
+The script is intended to be used within the Eventphone telephone system.
 
 
 ## Convert your images into SSTV slin files
