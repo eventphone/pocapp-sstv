@@ -17,7 +17,7 @@ expr {srand([clock clicks])}
 
 # get filelist
 set sounds [file join [file dirname [file normalize [info script]]] .. sounds]
-set sstvimages [glob -dir $sounds/sstv/ "\[0-9\]*.slin" ]
+set sstvimages [glob -dir $sounds/sstv/ "*.slin" ]
 
 ## return a random element from the list l
 proc random_choice {l} {
