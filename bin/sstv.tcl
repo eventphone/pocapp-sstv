@@ -2,6 +2,11 @@
 
 package require ygi
 
+## return a random element from the list l
+proc random_choice {l} {
+	return [lindex $l [expr {int(rand()*[llength $l])}]]
+}
+
 ::ygi::start_ivr
 
 ##
@@ -18,11 +23,6 @@ expr {srand([clock clicks])}
 # get filelist
 set sounds [file join [file dirname [file normalize [info script]]] .. sounds]
 set sstvimages [glob -dir $sounds/sstv/ "\[0-9\]*.slin" ]
-
-## return a random element from the list l
-proc random_choice {l} {
-	return [lindex $l [expr {int(rand()*[llength $l])}]]
-}
 
 ## play intro sound and wait for the audio to come through properly
 ::ygi::play_wait "yintro"
